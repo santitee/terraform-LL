@@ -10,3 +10,4 @@
 
 # Module directory
 .terraform/
+.DS_Store

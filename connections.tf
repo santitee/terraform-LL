@@ -1,5 +1,5 @@
 provider "google" {
-  credential = "${file("../account.json")}"
+  credentials = "${file("../account.json")}"
   project = "Terraform-LL"
   region = ""
 }
